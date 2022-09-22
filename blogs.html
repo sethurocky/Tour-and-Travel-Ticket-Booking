@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tour and Travel Agency Website Design</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file cdn link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-paper-plane"></i> travel Agency</a>
+
+     
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-moon" id="theme-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./packages.html">packages</a>
+            <a href="./services.html">services</a>
+            <a href="./pricing.html">pricing</a>
+            <a href="#review">review</a>
+            <a href="./contact.html">contact</a>
+            <a href="./blogs.html">blogs</a>
+        </nav>
+
+        <form action="" class="login-form">
+
+            <div class="inputBox">
+                <span>username</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+
+            <div class="inputBox">
+                <span>password</span>
+                <input type="password" placeholder="enter your password">
+            </div>
+
+            <div class="remember">
+                <input type="checkbox" name="" id="login-remember">
+                <label for="login-remember">remember me</label>
+            </div>
+
+            <input type="submit" class="btn" value="login">
+
+        </form>
+
+    </header>
+    <section class="blogs pad" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/blog-1.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/blog-2.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/blog-3.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script>
+
+        AOS.init({
+            duration:800,
+            delay:400
+        });
+        
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+h1
+{
+    font: italic;
+    color:#F79F1F;
+}
+label
+{
+    font-size: xx-large;
+
+}
+.btn
+{
+    color: white;
+     background-color: #F79F1F;
+     border: none;
+     font-size: large;
+     font-weight: 200;
+     padding: 10px 20px;
+     border-radius: 4px;
+}
+.box
+{
+    color:white;
+}
+body
+{
+    background-color: black;
+}
